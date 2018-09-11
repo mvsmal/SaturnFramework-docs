@@ -261,7 +261,7 @@ Returns `504 Gateway Timeout`
 
 ## Controller builder
 
-Computation expression used to create Saturn controllers - abstraction representing REST-ish enpoint for serving HTML views or returning data. It supports:
+Computation expression used to create Saturn controllers - abstraction representing REST-ish endpoint for serving HTML views or returning data. It supports:
 
 * set of predefined actions that are automatically mapped to the enpoints following standard conventions
 * embedding sub-controllers for modeling one-to-many relationships 
