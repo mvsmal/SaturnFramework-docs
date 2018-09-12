@@ -11,9 +11,9 @@ After creating a new Saturn project, Let's take a deeper look into what files ar
     |   ├── Migrations
     |   └── SaturnSample
     ├── .gitignore
-    ├── build.cmd
+    ├── fake.cmd
     ├── build.fsx
-    ├── build.sh
+    ├── fake.sh
     ├── global.json
     ├── paket.dependencies
     ├── paket.lock
@@ -21,7 +21,7 @@ After creating a new Saturn project, Let's take a deeper look into what files ar
 
 At this level most of it is basic configuration files to help with running Saturn. From looking at the `.paket`, `paket-files`, `paket.dependencies`, `paket.lock` folders and files, you can see that by default Saturn uses [paket](https://fsprojects.github.io/Paket/) to handle package management. You won't be working with these files directly but rather through the command line tools instead.
 
-Saturn also use [FAKE](https://fake.build/) to build the project. You can see how it is set up by looking at the `.fake` folder and the `build.cmd`, `build.fsx`, `build.sh` files.
+Saturn also use [FAKE](https://fake.build/) to build the project. You can see how it is set up by looking at the `.fake` folder and the `fake.cmd`, `build.fsx`, `fake.sh` files.
 
 Saturn also provide a `.gitignore` file that prevent some folders from being tracked by git when they don't need to.
 
